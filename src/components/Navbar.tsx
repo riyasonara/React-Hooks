@@ -42,19 +42,34 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/Memo">
                   useMemo
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/Callback">
                   useCallback
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/Context">
                   useContext
-                </a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/Reducer">
+                  useReducer
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/Navigate">
+                  useNavigate
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/Local">
+                  customHook
+                </Link>
               </li>
             </ul>
           </div>
